@@ -2,7 +2,7 @@ import torch
 
 def get_offsets(gt_boxes, ex_boxes):
     """
-    This function returns the offsets that need to applied to gt_boxes to morpth them into ex_boxes.
+    This function returns the offsets that need to applied to gt_boxes to morph them into ex_boxes.
     Both boxes should be of the same shape, N x 4.
     The output would be offsets given in a torch tensor of size N x 4.
     """
